@@ -1,0 +1,172 @@
+html{
+    background-color: rgb(240, 240, 240);
+   font-family: 'Times New Roman', Times, serif;
+    
+}
+body a{
+    text-decoration: none;
+}
+body ul{
+    list-style: none;
+}
+body{
+    margin: 0px;
+    background-image: url("bodybackground1.jpg");
+    background-size: 100%;
+    
+}
+main{
+    
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+header{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+header ul{
+    display: flex; 
+    align-items: center;
+}
+
+header  img{
+    height: 70px;
+}
+header ul li{
+    font-size: 20px;
+    margin-left:10px;
+    font-family: arial;
+}
+header ul li a{
+    color: rgb(255, 255, 255);
+}
+
+
+footer ul li img{
+    height: 20px;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+footer ul{
+   display: flex;
+}
+
+section:first-child{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.mainimg {
+    width: 50%;
+    position: relative;
+}
+.mainimg img{
+   height: 60vh;
+   width: 100%;
+   transition: all .5s;
+}
+.mainimg img:hover{
+    transform: scale(1.05) ;
+}
+
+.divimg img:hover{
+    transform: scale(1.05) ;
+}
+.divimg img{
+    width: 100%;
+    height: 30vh;
+    transition: all .5s;
+    
+}
+.divimg{
+    height: 30vh;
+    width:25%;
+    position: relative;
+    transition: all .5s;
+   
+}
+main h1{
+    position:absolute;
+    color:white ;
+    padding: 5px;
+    top: 450px;
+    font-size: 30px;
+    margin: 20px;
+    font-family: 'Arial';
+}
+.title1{
+    position: absolute;
+    top:150px;
+    color: white;
+    margin: 10px;
+    font-family: 'Arial';
+    
+}
+.title2{
+    position: absolute;
+    top:410px;
+    color: white;
+    margin: 10px;
+    font-family: 'Arial Narrow';
+    
+}
+.section2{
+    margin:50px 20px 20px 20px;
+    width: 70%;
+    position: relative;
+    font-family: arial;
+}
+.section2 img{
+    height: 22vh;
+    width: 30%;
+    border-radius: 20px;
+}
+.dailynews{
+    display: flex;
+    margin:10px
+}
+
+.dailynews div  {
+    width: 70%;
+    padding: 10px;
+ 
+   
+}
+
+.section2 div h2:hover{
+    color: rgb(132, 0, 255);
+}
+.section3{
+  
+    width: 20.5%;;
+    font-family: arial;
+}
+.section3 h2:hover{
+    color: rgb(132, 0, 255);
+}
+
+.section3 img{
+    height: 22vh;
+    width: 100%;
+    border-radius: 20px;
+}
+section{
+    margin-top:30px
+}
+
